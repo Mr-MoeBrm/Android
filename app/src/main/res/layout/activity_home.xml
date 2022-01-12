@@ -33,6 +33,13 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1" >
+
+            <FrameLayout
+                android:id="@+id/adView_container"
+                android:layout_width="411dp"
+                android:layout_height="68dp"
+                android:background="#FF0000" />
+
         </FrameLayout>
     </LinearLayout>
     <fragment
@@ -45,4 +52,5 @@
         tools:layout="@layout/fragment_navigation_drawer">
 
     </fragment>
+
 </androidx.drawerlayout.widget.DrawerLayout>

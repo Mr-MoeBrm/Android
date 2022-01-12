@@ -49,5 +49,6 @@ dependencies {
     annotationProcessor 'androidx.room:room-compiler:2.3.0'
     implementation 'com.google.android.gms:play-services-maps:18.0.1'
     implementation "com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:2.0.0"
+    implementation 'com.google.android.gms:play-services-ads:18.3.0'
 
 }
