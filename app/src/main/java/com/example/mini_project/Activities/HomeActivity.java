@@ -85,7 +85,6 @@ public class HomeActivity extends AppCompatActivity implements FragmentDrawer.Fr
             Logout();
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 

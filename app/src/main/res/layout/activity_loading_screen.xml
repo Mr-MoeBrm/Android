@@ -7,4 +7,35 @@
     tools:context=".Activities.LoadingScreen"
     android:background="@drawable/ic_loadingscreen">
 
+    <TextView
+        android:id="@+id/app"
+        android:layout_width="408dp"
+        android:layout_height="205dp"
+        android:text="Mini Project"
+        android:textAlignment="center"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="408dp"
+        android:layout_height="205dp"
+        android:textStyle="italic"
+        android:text="Created By \n               MoeBrm and MJ "
+        android:textAlignment="center"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

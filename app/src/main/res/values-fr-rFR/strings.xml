@@ -42,4 +42,10 @@
     <string name="alert_1">saisir un entier</string>
     <string name="alert_2">saisir un entier positif</string>
     <string name="calcul_fact">Calculer Sa Factorielle</string>
+    <string name="Tab_1">Calculer IMC</string>
+    <string name="Tab_2">HISTORIQUE</string>
+    <string name="poids_hint">entrer votre poids</string>
+    <string name="height_hint">entrer votre taille</string>
+    <string name="Poids">poids</string>
+    <string name="Height">Longeur</string>
 </resources>
